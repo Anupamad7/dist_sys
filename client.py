@@ -14,6 +14,9 @@ def read_file(handler, filename):
     print(data)
 
 
+
+
+
 def main(args):
     # Request Connection to Directory
     con_primary = rpyc.connect(DIRECTORY_ADDR, port=DIRECTORY_PORT)
